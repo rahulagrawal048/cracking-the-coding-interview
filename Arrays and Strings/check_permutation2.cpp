@@ -5,7 +5,7 @@
 using namespace std;
 
 //Less efficient way: Sort the strings in O(NlogN) and check for equal strings
-//Better:
+//Better: Make frequency counter for both strings and check for equality in counts of each character
 //Time complexity: O(N)
 //Space complexity: O(1)
 bool checkPermutation(string s1, string s2) {
